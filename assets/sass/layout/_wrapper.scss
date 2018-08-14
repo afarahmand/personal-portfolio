@@ -105,11 +105,35 @@
 		}
 
 		section#two {
+			article {
+				padding-bottom: 1.75em;
+			}
 			li {
 				display: inline-block;
 				img {
 					width: 200px;
 				}
+			}
+		}
+
+		section#three {
+			.button {
+				margin-left: 40px;
+			}
+
+			article {
+				padding-bottom: 1.75em;
+			}
+
+			img {
+				height: 255px;
+			}
+		}
+
+		section#four {
+			article {
+				margin: 0 auto;
+				width: 100%;
 			}
 		}
 	}
