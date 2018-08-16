@@ -2063,10 +2063,12 @@ body.is-menu-visible #menu {
     #banner .inner .contact {
       display: flex;
       justify-content: space-between;
-      width: 40%;
+      width: 30%;
       margin: 0 auto; }
       #banner .inner .contact a {
-        margin: 0 4% 0 4%; }
+        margin: 0 7% 0 7%; }
+      #banner .inner .contact a:first-child {
+        margin-left: 0; }
       #banner .inner .contact .icon {
         font-size: 1.5em; }
   #banner .logo {
