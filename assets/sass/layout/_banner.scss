@@ -18,12 +18,14 @@
 			.contact {
 				display: flex;
 				justify-content: space-between;
-				width: 30%;
+				width: 40%;
+				min-width: 200px;
+				max-width: 300px;
 				margin: 0 auto;
 
-				a {
-					margin: 0 7% 0 7%;
-				}
+				// a {
+				// 	margin: 0 7% 0 7%;
+				// }
 
 				a:first-child {
 					margin-left: 0;

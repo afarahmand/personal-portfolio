@@ -2063,10 +2063,10 @@ body.is-menu-visible #menu {
     #banner .inner .contact {
       display: flex;
       justify-content: space-between;
-      width: 30%;
+      width: 40%;
+      min-width: 200px;
+      max-width: 300px;
       margin: 0 auto; }
-      #banner .inner .contact a {
-        margin: 0 7% 0 7%; }
       #banner .inner .contact a:first-child {
         margin-left: 0; }
       #banner .inner .contact .icon {
@@ -2495,6 +2495,7 @@ body.is-menu-visible #menu {
       text-align: right; }
     #footer .inner .contact {
       width: 50%;
+      max-width: 500px;
       margin: 0 auto;
       display: flex;
       justify-content: space-around; }
@@ -2543,10 +2544,9 @@ body.is-menu-visible #menu {
           width: 100%;
           margin: 0 0 4em 0; }
         #footer .inner .contact {
-          width: 100%;
-          margin: 0 0 4em 0; }
+          margin: 0 auto; }
         #footer .inner .copyright {
-          margin: 4em 0 2em 0; } }
+          margin: 0 auto; } }
   @media screen and (max-width: 736px) {
     #footer {
       margin-top: -2.5em;
@@ -2556,7 +2556,8 @@ body.is-menu-visible #menu {
         #footer .inner form {
           margin: 0 0 3em 0; }
         #footer .inner .contact {
-          margin: 0 0 3em 0; } }
+          display: flex;
+          justify-content: space-between; } }
   @media screen and (max-width: 480px) {
     #footer .inner .copyright li {
       border-left: 0;

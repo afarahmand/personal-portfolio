@@ -32,8 +32,8 @@
 			}
 
 			.contact {
-				// width: calc(50% - #{_size(section-spacing, large) * 0.5});
 				width: 50%;
+				max-width: 500px;
 				margin: 0 auto;
 				display: flex;
 				justify-content: space-around;
@@ -110,12 +110,11 @@
 				}
 
 				.contact {
-					width: 100%;
-					margin: 0 0 (_size(element-margin) * 2) 0;
+					margin: 0 auto;
 				}
 
 				.copyright {
-					margin: (_size(element-margin) * 2) 0 _size(element-margin) 0;
+					margin: 0 auto;
 				}
 			}
 		}
@@ -132,7 +131,8 @@
 				}
 
 				.contact {
-					margin: 0 0 (_size(element-margin) * 1.5) 0;
+					display: flex;
+					justify-content: space-between;
 				}
 			}
 		}
