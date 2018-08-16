@@ -18,11 +18,15 @@
 			.contact {
 				display: flex;
 				justify-content: space-between;
-				width: 40%;
+				width: 30%;
 				margin: 0 auto;
 
 				a {
-					margin: 0 4% 0 4%;
+					margin: 0 7% 0 7%;
+				}
+
+				a:first-child {
+					margin-left: 0;
 				}
 
 				.icon {
