@@ -2508,10 +2508,8 @@ body.is-menu-visible #menu {
         justify-content: space-between;
         margin-bottom: 20px; }
       #footer .inner .contact section#bottom {
-        width: 50%;
-        min-width: 100px;
-        max-width: 200px;
-        margin: 0 auto; }
+        display: flex;
+        justify-content: space-around; }
     #footer .inner .copyright {
       text-align: center;
       list-style: none;
